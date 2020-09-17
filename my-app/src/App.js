@@ -1,21 +1,25 @@
 import React from 'react'
-// import './App.css';
+import './App.css';
 import About from './components/About'
 import Music from './components/Music'
 import Gigs from './components/Gigs'
 import Contact from './components/Contact'
 import Home from './components/Home'
-import { BrowserRouter as Router, Route } from "react-router-dom"
+import NavBar from '../src/NavBar'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 function App() {
   return(
     <div>
+      <NavBar />
       <Router>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/music' component={Music} />
-        <Route exact path='/gigs' component={Gigs} />
-        <Route exact path='/contact' component={Contact} />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/music' component={Music} />
+          <Route exact path='/gigs' component={Gigs} />
+          <Route exact path='/contact' component={Contact} />
+        </Switch>
       </Router>
     </div>
   )
