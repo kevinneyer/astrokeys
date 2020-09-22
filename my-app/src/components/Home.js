@@ -7,17 +7,16 @@ const Home = () => {
     return(
         <div>
             <h1>Home</h1>
-            <Grid>
-            <Grid.Column>
-            <Segment className='ep' raised>
+           
+          
+            <Segment className='ep' raised >
                 <Label color='red'>
                 Available Now!
                 </Label>
-                <Image src={albumCover} alt='album cover' style={{width: 500}} />
+                <Image className='ep-image' src={albumCover} alt='album cover' centered  />
 
             </Segment>
-            </Grid.Column>
-            </Grid>
+           
             <div className='social-div'>
                 <Segment>
                 <Icon className='socials' name='instagram' size='big'/>
