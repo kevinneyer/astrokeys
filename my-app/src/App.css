@@ -37,6 +37,18 @@
   }
 }
 
-.navbar{
+
+.ep{
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  width: 50%;
+}
+
+.socials{
   margin-left: 2em;
+  margin-right: 2em;
+}
+.socials:hover{
+  margin-top: 1em;
 }
