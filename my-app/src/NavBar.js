@@ -1,6 +1,6 @@
 import React from 'react'
-import { Menu } from 'semantic-ui-react'
-import { BrowserRouter as Router, Link } from "react-router-dom"
+import { Menu, Grid, GridColumn } from 'semantic-ui-react'
+import { BrowserRouter as Router, Link} from "react-router-dom"
 
 
 const NavBar = () => {
@@ -29,6 +29,16 @@ const NavBar = () => {
                     />
                 </Menu>
             </Router>
+
+            {/* <Grid columns={5}>
+                <GridColumn>Home</GridColumn>
+                <GridColumn>About</GridColumn>
+                <GridColumn>Gigs</GridColumn>
+                <GridColumn>Music</GridColumn>
+                <GridColumn>Contact</GridColumn>
+            </Grid> */}
+
+
         </div>
     )
 }
