@@ -7,8 +7,6 @@ const Home = () => {
     return(
         <div>
             <h1>Home</h1>
-           
-          
             <Segment className='ep' raised >
                 <Label color='red'>
                 Available Now!
@@ -16,7 +14,6 @@ const Home = () => {
                 <Image className='ep-image' src={albumCover} alt='album cover' centered  />
 
             </Segment>
-           
             <div className='social-div'>
                 <Segment>
                 <a href='https://www.instagram.com/theastrokeys/' target='_blank'><Icon className='socials' name='instagram' size='big' color='black'/></a>
@@ -25,8 +22,6 @@ const Home = () => {
                 <a href='https://music.apple.com/us/album/astro-keys-ep/1523101481' target='_blank'><Icon className='socials' name='apple' size='big' color='black'/></a>
                 </Segment>
             </div>
-            
-
         </div>
     )
 }
