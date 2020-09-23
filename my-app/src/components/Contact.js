@@ -8,6 +8,18 @@ const Contact = () => {
     const [lasttName, setLastName] = useState('')
     const [email, setEmail] = useState('')
 
+    const firstNameHandler = (e) => {
+        setFirstName(e.target.value)
+    }
+
+    const lastNameHandler = (e) => {
+        setLastName(e.target.value)
+    }
+
+    const emailHandler = (e) => {
+        setEmail(e.target.value)
+    }
+    console.log(firstName, lasttName, email)
     return(
         <div>
             <Header size='huge' textAlign='center' >Want to stay up to date?</Header>
@@ -15,10 +27,10 @@ const Contact = () => {
             <Segment>
             <Form >
                 <Form.Group widths='equal'>
-                    <Form.Input fluid label='First name' placeholder='First name' />
-                    <Form.Input fluid label='Last name' placeholder='Last name' />
+                    <Form.Input onChange={firstNameHandler} fluid label='First name' placeholder='First name' />
+                    <Form.Input onChange={lastNameHandler} fluid label='Last name' placeholder='Last name' />
                 </Form.Group>
-                <Form.Input fluid label='email address' placeholder='music@funk.com' />
+                <Form.Input onChange={emailHandler} fluid label='email address' placeholder='music@funk.com' />
                 <Button color='black'>Submit!</Button>    
             </Form>
             </Segment>
