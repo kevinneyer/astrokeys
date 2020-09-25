@@ -60,3 +60,23 @@
 .socials:hover{
   margin-top: 1em;
 }
+
+.font-face{
+  font-family: "Monteserrat-Bold";
+  src: url('./fonts/Montserrat-Bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.font-face{
+  font-family: 'YoungSerif-Regular';
+  src: url('./fonts/YoungSerif-Regular.otf');
+font-style: normal;
+font-weight: bold;
+}
+
+.navbar{
+ font-family: "Monteserrat-Bold";
+ font-size: xx-large;
+ 
+}
