@@ -1,13 +1,13 @@
 import React from 'react'
 import albumCover from '../assets/albumCover.jpg'
 import organKeys from '../assets/organKeys.JPG'
-import { Icon, Grid, Image, Label, Segment} from 'semantic-ui-react'
+import { Icon, Grid, Image, Label, Segment, GridColumn} from 'semantic-ui-react'
 
 const Home = () => {
     return(
         <div>
-            <h1>Home</h1>
-            <Segment className='ep' raised  inverted>
+           {/*  */}
+               <Segment className='ep' raised inverted padded>
                 <Label color='red'>
                 Available Now!
                 </Label>

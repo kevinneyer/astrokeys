@@ -40,17 +40,17 @@
 
 .ep{
   /* display: block; */
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  /* margin-left: ; */
+  margin-right: 1em;
+  /* width: 50%; */
 }
 
 .ep-image{
-   display: block;
+  display: block;
   width: 500px;
   
-  /* margin-left: auto;
-  margin-right: auto; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .socials{
@@ -66,17 +66,19 @@
   src: url('./fonts/Montserrat-Bold.woff');
   font-weight: bold;
   font-style: normal;
+  /* text-underline-position: below; */
 }
 
 .font-face{
   font-family: 'YoungSerif-Regular';
   src: url('./fonts/YoungSerif-Regular.otf');
-font-style: normal;
-font-weight: bold;
+  font-style: normal;
+  font-weight: bold;
+/* text-underline-position: below; */
 }
 
 .navbar{
  font-family: "Monteserrat-Bold";
  font-size: xx-large;
- 
 }
+
