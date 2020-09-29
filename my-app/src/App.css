@@ -39,10 +39,11 @@
 
 
 .ep{
-  /* display: block; */
-  /* margin-left: ; */
-  margin-right: 1em;
-  /* width: 50%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-top: 1em;
 }
 
 .ep-image{
@@ -58,7 +59,8 @@
   margin-right: 2em;
 }
 .socials:hover{
-  margin-top: 1em;
+  margin-top: .5em;
+  text-underline-offset: below;
 }
 
 .font-face{
@@ -81,4 +83,19 @@
  font-family: "Monteserrat-Bold";
  font-size: xx-large;
 }
+
+.mailing-list{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-div{
+  margin-top: 3em;
+  
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
 

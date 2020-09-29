@@ -19,9 +19,9 @@ const Contact = () => {
     const emailHandler = (e) => {
         setEmail(e.target.value)
     }
-    console.log(firstName, lasttName, email)
+   
     return(
-        <div>
+        <div className='mailing-list'>
             <Header size='huge' textAlign='center' >Want to stay up to date?</Header>
             <Header size='medium' textAlign='center' >Join our mailing list!(or something like that)</Header>
             <Segment>
