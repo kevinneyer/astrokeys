@@ -12,7 +12,6 @@ import {Grid, GridColumn} from 'semantic-ui-react'
 function App() {
   return(
     <div className='app'>
- 
       <NavBar />
  
       <Router>

@@ -5,10 +5,11 @@ import { BrowserRouter as Router, Link} from "react-router-dom"
 
 const NavBar = () => {
     return(
-        <div >
+        <div className='navbar'>
             <Router>
-                    <Menu widths={5} inverted>
+                    <Menu widths={5} text  >
                     <Menu.Item
+                    className='nav'
                     name='Home'
                     href='/'>
                     {/* <Link to="/">Home</Link> */}
@@ -16,6 +17,7 @@ const NavBar = () => {
                     </Menu.Item>
                     
                     <Menu.Item
+                    className='nav'
                     name='About'
                     href='/about'>
                     {/* <Link to="/about">About</Link> */}
@@ -23,18 +25,21 @@ const NavBar = () => {
                     </Menu.Item>
 
                     <Menu.Item
+                    className='nav'
                     name='Gigs'
                     href='/gigs'
                     >
                     Gigs
                     </Menu.Item>
                     <Menu.Item
+                    className='nav'
                     name='Music'
                     href='/music'
                     >
                     Music
                     </Menu.Item>
                     <Menu.Item
+                    className='nav'
                     name='Contact'
                     href='/contact'
                     >

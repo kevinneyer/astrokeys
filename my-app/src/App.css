@@ -42,7 +42,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 60%;
   margin-top: 1em;
 }
 
@@ -79,9 +79,14 @@
 /* text-underline-position: below; */
 }
 
-.navbar{
- font-family: "Monteserrat-Bold";
- font-size: xx-large;
+/* .navbar{
+  background-color: black;
+  padding-top: 3em;
+} */
+
+.nav{
+  font-family: 'YoungSerif-Regular';
+  font-size: x-large;
 }
 
 .mailing-list{
@@ -96,6 +101,11 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+
+/* .home{
+  background-image: url('./assets/organKeys.JPG');
+  background-size: 100%;
+} */
 
 
 
