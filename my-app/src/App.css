@@ -37,6 +37,13 @@
   }
 }
 
+.gigs{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 1em;
+}
 
 .ep{
   display: block;

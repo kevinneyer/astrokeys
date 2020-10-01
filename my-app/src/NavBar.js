@@ -1,5 +1,5 @@
 import React from 'react'
-import { Menu, Grid, Segment} from 'semantic-ui-react'
+import { Menu, Grid, Segment, Sidebar} from 'semantic-ui-react'
 import { BrowserRouter as Router, Link} from "react-router-dom"
 
 
@@ -46,6 +46,7 @@ const NavBar = () => {
                     Contact
                     </Menu.Item>
                 </Menu>
+                
 
             </Router>
             {/* <Segment raised>
