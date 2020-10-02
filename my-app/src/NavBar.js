@@ -7,12 +7,13 @@ const NavBar = () => {
     return(
         <div className='navbar'>
             <Router>
-                    <Menu widths={5} text >
+                    <Menu widths={5} text  >
                     <Menu.Item
                     className='nav'
                     name='Home'
+                    color='blue'
                     href='/'>
-                    {/* <Link to="/">Home</Link> */}
+                   
                     Home
                     </Menu.Item>
                     
@@ -20,7 +21,7 @@ const NavBar = () => {
                     className='nav'
                     name='About'
                     href='/about'>
-                    {/* <Link to="/about">About</Link> */}
+                    
                     About
                     </Menu.Item>
 
@@ -46,6 +47,16 @@ const NavBar = () => {
                     Contact
                     </Menu.Item>
                 </Menu>
+{/* 
+                <div className='nav-container'>
+                    <div className='navs'>
+                        <a className='nav-links'>Home</a>
+                        <a className='nav-links'>ABout</a>
+                        <a className='nav-links'>Gigs</a>
+                        <a className='nav-links'>Music</a>
+                        <a className='nav-links'>Contact</a>
+                    </div>
+                </div> */}
                 
 
             </Router>

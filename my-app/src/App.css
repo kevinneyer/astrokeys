@@ -49,8 +49,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-  margin-top: 1em;
+  width: 75%;
+  margin-top: 5em;
 }
 
 .ep-image{
@@ -82,19 +82,40 @@
   font-family: 'YoungSerif-Regular';
   src: url('./fonts/YoungSerif-Regular.otf');
   font-style: normal;
+  font-weight: 900;
+
+}
+
+.font-face{
+  font-family: 'Cochin-LT';
+  src: url('./fonts/Cochin-LT-Font.ttf');
+  font-style: normal;
+  font-weight: normal;
+
+}
+
+.font-face{
+  font-family: 'CochinBold';
+  src: url('./fonts/CochinBold.ttf');
+  font-style: normal;
   font-weight: bold;
-/* text-underline-position: below; */
+
 }
 
 /* .navbar{
-  background-color: black;
-  padding-top: 3em;
+ color: black;
 } */
 
 .nav{
-  font-family: 'YoungSerif-Regular';
+  font-family: 'CochinBold';
   font-size: x-large;
+  color: black;
+  
 }
+
+/* .nav:hover{
+  
+} */
 
 .mailing-list{
   width: 70%;
@@ -104,7 +125,6 @@
 
 .social-div{
   margin-top: 5em;
-  
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -122,6 +142,32 @@
   background-image: url('./assets/organKeys.JPG');
   background-size: 100%;
 } */
+
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+.nav-links{
+  font-family: 'CochinBold';
+  font-weight: 700;
+  font-size: x-large;
+  margin-left: 6em;
+ 
+}
+
+.navs{
+  margin-top: 2em;
+  margin-bottom: 1em;
+  margin-left: 3em;
+}
+
+.spotify{
+  width: 100%;
+  height: 20em;
+}
 
 
 

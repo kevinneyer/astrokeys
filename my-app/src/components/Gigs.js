@@ -12,7 +12,7 @@ const Gigs  = () => {
 
     return(
         <div>
-            <Header size='huge' textAlign='center '>Astro Keys</Header>
+            <Header size='huge' textAlign='center'>Come See Us!</Header>
 
             {gigs.length > 0 ? gigs.map( gig => 
             <div className='gigs'>
