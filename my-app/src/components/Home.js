@@ -1,8 +1,9 @@
 import React from 'react'
 import albumCover from '../assets/albumCover.jpg'
 import organKeys from '../assets/organKeys.JPG'
+import AstroKeys from '../assets/AstroKeys.jpg'
 import { Icon, Grid, Image, Label, Segment } from 'semantic-ui-react'
-import NavBar from '../NavBar'
+
 
 const Home = () => {
     
@@ -10,6 +11,7 @@ const Home = () => {
         <div className='home'>
            {/*  */}
            {/* <Image src={organKeys} /> */}
+           {/* <Image src={AstroKeys} /> */}
            <div className='ep'>
                <Segment inverted raised padded >
                 <Label ribbon color='red'>

@@ -5,7 +5,7 @@ const Footer = () =>{
     return(
         <div>
             <div className='social-div'>
-                <Menu widths={1} fixed='bottom' text>
+                <Menu widths={1} fixed='bottom' text >
                 <Grid  verticalAlign='centered' > 
                 <a href='https://www.instagram.com/theastrokeys/' target='_blank'><Icon className='socials' name='instagram' size='big' color='black'/></a>
                 <a href='https://www.facebook.com/pg/TheAstroKeys/about/?ref=page_internal' target='_blank'><Icon className='socials' name='facebook' size='big' color='blue' /></a>

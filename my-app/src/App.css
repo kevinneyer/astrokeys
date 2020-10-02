@@ -109,6 +109,15 @@
   margin-right: 10%;
 }
 
+.about-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-container{
+  margin-top: 6.25em;
+}
 /* .home{
   background-image: url('./assets/organKeys.JPG');
   background-size: 100%;

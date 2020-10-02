@@ -1,5 +1,5 @@
 import React from 'react'
-import { Menu, Grid, Segment, Sidebar} from 'semantic-ui-react'
+import { Menu } from 'semantic-ui-react'
 import { BrowserRouter as Router, Link} from "react-router-dom"
 
 
@@ -7,7 +7,7 @@ const NavBar = () => {
     return(
         <div className='navbar'>
             <Router>
-                    <Menu widths={5} text  >
+                    <Menu widths={5} text >
                     <Menu.Item
                     className='nav'
                     name='Home'
@@ -49,6 +49,7 @@ const NavBar = () => {
                 
 
             </Router>
+        
             {/* <Segment raised>
             <Grid >
                 <Grid.Column className='navbar'><a href='/'>Home</a></Grid.Column>
