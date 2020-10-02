@@ -6,6 +6,7 @@ import Gigs from './components/Gigs'
 import Contact from './components/Contact'
 import Home from './components/Home'
 import NavBar from '../src/NavBar'
+import Footer from './Footer'
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
 import {Grid, GridColumn} from 'semantic-ui-react'
 
@@ -25,6 +26,7 @@ function App() {
   
         </Switch>
       </Router>
+      < Footer />
     
     </div>
   )
