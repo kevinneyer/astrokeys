@@ -7,7 +7,7 @@ const NavBar = () => {
     return(
         <div className='navbar'>
             <Router>
-                    <Menu widths={5} text  >
+                    <Menu widths={10} text  >
                     <Menu.Item
                     className='nav'
                     name='Home'
