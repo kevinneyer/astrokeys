@@ -4,7 +4,6 @@ import organKeys from '../assets/organKeys.JPG'
 import AstroKeys from '../assets/AstroKeys.jpg'
 import { Icon, Grid, Image, Label, Segment } from 'semantic-ui-react'
 
-
 const Home = () => {
     
     return(
