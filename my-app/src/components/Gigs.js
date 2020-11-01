@@ -22,10 +22,6 @@ const Gigs  = () => {
                     <Item.Header>{gig.name}</Item.Header>
                     <Item.Meta>Date: {gig.date}</Item.Meta>
                     <Item.Meta>Time: {gig.time}</Item.Meta>
-                    {/* <Item.Description>
-                        Date and Time or Something
-                    </Item.Description>
-                    <Item.Extra>Place Deatils</Item.Extra> */}
                 </Item.Content>
             </Item>
             </Segment>

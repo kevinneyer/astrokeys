@@ -8,9 +8,6 @@ const Home = () => {
     
     return(
         <div className='home'>
-           {/*  */}
-           {/* <Image src={organKeys} /> */}
-           {/* <Image src={AstroKeys} /> */}
            <div className='ep'>
                <Segment inverted raised padded >
                 <Label ribbon color='red'>
@@ -20,7 +17,6 @@ const Home = () => {
 
             </Segment>
             </div>
-           
                 {/* <div className='social-div'>
                     <Grid  verticalAlign='centered' > 
                     <a href='https://www.instagram.com/theastrokeys/' target='_blank'><Icon className='socials' name='instagram' size='big' color='black'/></a>
@@ -30,9 +26,6 @@ const Home = () => {
                     <a href="mailto:theastrokeys@gmail.com" target='_blank'><Icon className='socials' name='mail' size='big' color='black' /></a>
                     </Grid>
                 </div> */}
-
-            
-            
         </div>
     )
 }

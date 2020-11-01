@@ -13,18 +13,14 @@ const NavBar = () => {
                     name='Home'
                     color='blue'
                     href='/'>
-                   
                     Home
                     </Menu.Item>
-                    
                     <Menu.Item
                     className='nav'
                     name='About'
                     href='/about'>
-                    
                     About
                     </Menu.Item>
-
                     <Menu.Item
                     className='nav'
                     name='Gigs'
@@ -47,7 +43,7 @@ const NavBar = () => {
                     Contact
                     </Menu.Item>
                 </Menu>
-{/* 
+                {/* 
                 <div className='nav-container'>
                     <div className='navs'>
                         <a className='nav-links'>Home</a>
@@ -57,21 +53,7 @@ const NavBar = () => {
                         <a className='nav-links'>Contact</a>
                     </div>
                 </div> */}
-                
-
             </Router>
-        
-            {/* <Segment raised>
-            <Grid >
-                <Grid.Column className='navbar'><a href='/'>Home</a></Grid.Column>
-                <Grid.Column className='navbar'>About</Grid.Column>
-                <Grid.Column className='navbar'>Gigs</Grid.Column>
-                <Grid.Column className='navbar'>Music</Grid.Column>
-                <Grid.Column className='navbar'>Contact</Grid.Column>
-            </Grid>
-            </Segment> */}
-
-
         </div>
     )
 }
